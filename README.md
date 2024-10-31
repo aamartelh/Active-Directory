@@ -37,7 +37,10 @@ After logging into DC-1 (the domain controller machine), open Server Manager. Fr
 
 
 Step 2: Locate the User Account
-In Active Directory Users and Computers, navigate to your domain (e.g., mydomain.com). Expand the domain tree and locate the Organizational Unit (OU) where the user account is stored (e.g., _EMPLOYEES or _ADMINS). In this case, the user I am looking for will be found in "_EMPLOYEES". Right-click the "_EMPLOYEES" OU and select "Find". 
+In Active Directory Users and Computers, navigate to your domain (e.g., mydomain.com). Expand the domain tree and locate the Organizational Unit (OU) where the user account is stored (e.g., _EMPLOYEES or _ADMINS). 
+
+
+In this case, the user I am looking for will be found in "_EMPLOYEES". Right-click the "_EMPLOYEES" OU and select "Find". 
 
 ![2](https://github.com/user-attachments/assets/b1464bd2-f3d9-4353-a450-a9d3fe0cc403)
 
@@ -46,12 +49,12 @@ In Active Directory Users and Computers, navigate to your domain (e.g., mydomain
 Step 3: Select the User and Initiate the Password Reset
 
 Right-click on the user account (e.g., first.last) and choose Reset Password from the context menu.
-A dialog box will appear, prompting you to enter a new password and confirm it. Ensure the User must change password at next logon option is selected if the user should create a new password upon their next login.
+
 
 
 ![3](https://github.com/user-attachments/assets/670e8816-7971-4a0b-beac-81195975d532)
 
-
+A dialog box will appear, prompting you to enter a new password and confirm it. Ensure the User must change password at next logon option is selected if the user should create a new password upon their next login.
 
 ![4](https://github.com/user-attachments/assets/369b07b6-32b2-4031-b4e8-e66da4c2d9c8)
 
