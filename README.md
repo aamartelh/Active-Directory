@@ -90,9 +90,7 @@ Go to Client-1 and attempt to log in as the user whose password was reset.
 
 </p>
 <p>
-If User must change password at next logon was selected, the user should be prompted to set a new password after the first login. 
-
-Although Jane Doe is in a OU called _ADMINS, she technically is not yet a Domain admin since we have not given those privileges to her. So to do this, we click on _ADMINS and see that Jane Doe is there. Right click on Jane Doe -> Properties -> Member Of then type in Domain Admins in the box. Click on Check names, then OK and apply these settings.
+The user should be prompted to set a new password after the first login. In this case, we changed the password upon logging in and it was successful. 
 </p>
 <br />
 <p>
